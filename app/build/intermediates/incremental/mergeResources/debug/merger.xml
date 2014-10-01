@@ -2,83 +2,83 @@
 <merger version="2" >
 
     <dataSet config="20.0.0" >
-        <source path="/home/gus/Development/CardboardTest/CardboardTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
+        <source path="/home/gus/Development/theHelenKellerExperience/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/res" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res" >
+        <source path="/home/gus/Development/theHelenKellerExperience/app/src/main/res" >
             <file
                 name="light_vertex"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/raw/light_vertex.shader"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/raw/light_vertex.shader"
                 qualifiers=""
                 type="raw" />
             <file
                 name="simple_image_vertex"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/raw/simple_image_vertex.shader"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/raw/simple_image_vertex.shader"
                 qualifiers=""
                 type="raw" />
             <file
                 name="image_fragment"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/raw/image_fragment.shader"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/raw/image_fragment.shader"
                 qualifiers=""
                 type="raw" />
             <file
                 name="simple_vertex"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/raw/simple_vertex.shader"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/raw/simple_vertex.shader"
                 qualifiers=""
                 type="raw" />
             <file
                 name="grid_fragment"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/raw/grid_fragment.shader"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/raw/grid_fragment.shader"
                 qualifiers=""
                 type="raw" />
             <file
                 name="image_vertex"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/raw/image_vertex.shader"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/raw/image_vertex.shader"
                 qualifiers=""
                 type="raw" />
             <file
                 name="simple_image_fragment"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/raw/simple_image_fragment.shader"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/raw/simple_image_fragment.shader"
                 qualifiers=""
                 type="raw" />
             <file
                 name="simple_fragment"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/raw/simple_fragment.shader"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/raw/simple_fragment.shader"
                 qualifiers=""
                 type="raw" />
             <file
                 name="ic_launcher"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi-v4"
                 type="drawable" />
             <file
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/values-w820dp/dimens.xml"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/values-w820dp/dimens.xml"
                 qualifiers="w820dp-v13" >
                 <dimen name="activity_horizontal_margin" >64dp
                 </dimen>
             </file>
             <file
                 name="mona_lisa"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/drawable-xxhdpi/mona_lisa.jpg"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/drawable-xxhdpi/mona_lisa.jpg"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi-v4"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi-v4"
                 type="drawable" />
             <file
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/values/dimens.xml"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -86,13 +86,13 @@
                 </dimen>
             </file>
             <file
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/values/strings.xml"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/values/strings.xml"
                 qualifiers="" >
                 <string name="app_name" >The Helen Keller Experience
                 </string>
             </file>
             <file
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/values/style.xml"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/values/style.xml"
                 qualifiers="" >
 
                 <style name="common_text_put_on_goggles" >
@@ -112,15 +112,15 @@
             </file>
             <file
                 name="common_ui"
-                path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/res/layout/common_ui.xml"
+                path="/home/gus/Development/theHelenKellerExperience/app/src/main/res/layout/common_ui.xml"
                 qualifiers=""
                 type="layout" />
         </source>
-        <source path="/home/gus/Development/CardboardTest/CardboardTest/app/build/generated/res/rs/debug" />
-        <source path="/home/gus/Development/CardboardTest/CardboardTest/app/build/generated/res/generated/debug" />
+        <source path="/home/gus/Development/theHelenKellerExperience/app/build/generated/res/rs/debug" />
+        <source path="/home/gus/Development/theHelenKellerExperience/app/build/generated/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/gus/Development/CardboardTest/CardboardTest/app/src/debug/res" />
+        <source path="/home/gus/Development/theHelenKellerExperience/app/src/debug/res" />
     </dataSet>
 
 </merger>

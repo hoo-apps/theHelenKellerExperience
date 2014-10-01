@@ -36,6 +36,7 @@ import java.io.InputStreamReader;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
+import java.util.LinkedList;
 
 import javax.microedition.khronos.egl.EGLConfig;
 
@@ -163,7 +164,7 @@ public class MainActivity extends CardboardActivity implements CardboardView.Ste
 
 
         mOverlayView = (CardboardOverlayView) findViewById(R.id.overlay);
-        mOverlayView.show3DToast("Pull the magnet when you find an object.");
+        mOverlayView.show3DToast("Pull the magnet when you feel an object.");
     }
 
     @Override
@@ -411,7 +412,22 @@ public class MainActivity extends CardboardActivity implements CardboardView.Ste
 
         if (isLookingAtObject()) {
             mScore++;
-            mOverlayView.show3DToast("Found it! Look around for another one.\nScore = " + mScore);
+            LinkedList<String> jokes = new LinkedList<String>();
+            jokes.addLast("Did you hear that new Helen Keller joke?\nDon't worry, neither did she.");
+            jokes.addLast("What did Helen Keller do when she fell down the well?\nShe screamed and screamed until her hands turned blue.");
+            jokes.addLast("Why can't Helen Keller drive?\nBecause she's a woman!");
+            jokes.addLast("No but seriously, why can't she drive?\nBecause she's dead.");
+            jokes.addLast("How did Helen Keller's parents punish her?\nThey stuck a plunger in the toilet.");
+            jokes.addLast("Roses are black, violets are black. I'm Helen Keller.");
+            jokes.addLast("Whats Helen Keller's excuse every time she loses a competition?\nShe 'couldn't see.'");
+            jokes.addLast("Why did Helen Keller's dog kill itself?\nYou would too if your name was sajifjlsisdjifiuopoo.");
+            jokes.addLast("If Helen Keller fell down in the woods, would she make a sound?");
+            jokes.addLast("Why is it okay to tell Helen Keller jokes?\nBecause she can't hear them anyway!");
+            if (mScore < jokes.size()) {
+                mOverlayView.show3DToast(jokes.get(mScore));
+            } else {
+                mOverlayView.show3DToast("Helen, get off your damn phone game!");
+            }
             // give Helen feedback
             mVibrator.vibrate(50);
             hideObject();

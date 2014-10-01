@@ -2,13 +2,13 @@
 <merger version="2" >
 
     <dataSet config="20.0.0" >
-        <source path="/home/gus/Development/CardboardTest/CardboardTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/assets" />
+        <source path="/home/gus/Development/theHelenKellerExperience/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/home/gus/Development/CardboardTest/CardboardTest/app/src/main/assets" />
+        <source path="/home/gus/Development/theHelenKellerExperience/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/gus/Development/CardboardTest/CardboardTest/app/src/debug/assets" />
+        <source path="/home/gus/Development/theHelenKellerExperience/app/src/debug/assets" />
     </dataSet>
 
 </merger>
